@@ -6,6 +6,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "https://sebbasx.github.io",
-  base: "/astro-landing/",
+  site: "https://www.SebbasX.github.io",
+  base: "/astro-landing"
 });

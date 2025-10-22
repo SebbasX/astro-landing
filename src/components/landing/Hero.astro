@@ -1,3 +1,7 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
 <header
   class="bg-zinc-900 flex flex-col md:flex-row p-20 gap-3 text-center md:text-left rounded-xl"
 >
@@ -12,5 +16,9 @@
       Start Now
     </button>
   </div>
-  <img src="images/fingerprint.svg" alt="protege tu contraseña" class="w-80" />
+  <img
+    src={`${base}images/fingerprint.svg`}
+    alt="protege tu contraseña"
+    class="w-80"
+  />
 </header>
