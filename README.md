@@ -41,3 +41,14 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+## Cada vez que realice cambios en mi proyecto
+npm run build
+git push origin main
+git push origin `git subtree split --prefix dist main`:gh-pages --force
+
+## Con eso:
+    * npm run build genera la nueva versión del sitio
+    * el segundo comando guarda tus cambios de código
+    * el tercero actualiza automáticamente tu sitio en GitHub Pages 🌐
